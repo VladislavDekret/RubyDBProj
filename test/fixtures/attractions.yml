@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_attr: MyString
+  age: 1
+  during: 1
+  name: MyString
+  price: 1
+
+two:
+  id_attr: MyString
+  age: 1
+  during: 1
+  name: MyString
+  price: 1

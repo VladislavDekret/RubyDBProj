@@ -1,0 +1,2 @@
+class TicketRow < ApplicationRecord
+end

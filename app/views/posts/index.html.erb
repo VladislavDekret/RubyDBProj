@@ -1,0 +1,23 @@
+<div class="row">
+
+      <!-- Blog Entries Column -->
+      <div class="col-md-8">
+
+        <h1 class="my-4">Attractions</h1>
+
+        <!-- Blog Post -->
+        <% @posts.each do |post| %>
+        <div class="card mb-4">
+          <div class="card-body">
+            <h2 class="card-title"><%= post.name %></h2>
+            <p class="card-text"> price: <%= post.price %></p>
+            <p class="card-text"> age: <%= post.age %></p>
+            <p class="card-text"> during: <%= post.during %></p>
+            <p class="card-text"> admin surname: <%= post.surname %></p>
+            <p class="card-text"> admin email: <%= post.email %></p>
+            <a href="/posts/<%= post.id%>" class="btn btn-primary">Read More &rarr;</a>
+          </div>
+        </div>
+        <% end %>
+
+      </div>
